@@ -1,3 +1,6 @@
+.html {
+	font-size: 62.5%;
+}
 .header {
 	background-image: url(Image/vulture.jpg);
 	width: 100%;
@@ -27,7 +30,7 @@ h1 {
 
 }
 .main-title {
-	font-size: 72px;
+	font-size: 7.2rem;
 	text-transform: uppercase;
 	padding: 30px;
 	color: white;
@@ -36,4 +39,18 @@ h1 {
 	text-align: center;
 	font-size: 72px;
 	margin: 30px;
+}
+.about-us {
+	background-color: white;
+}
+h2 {
+	font-size: 2.4rem;
+	text-align: center;
+	padding-top: 100px;
+}
+.article-title {
+	text-transform: uppercase;
+	color: black;
+	text-align: center;
+	font-size: 3rem;
 }
