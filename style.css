@@ -2,4 +2,35 @@
 	background-image: url(Image/vulture.jpg);
 	width: 100%;
 	height: 1000px;
+
+}
+.container {
+	margin: 0 auto;
+}
+.navbar {
+	float: right;
+}
+.site-nav-item {
+	list-style: none;
+	text-decoration: none;
+	float: left;
+	padding: 5px;
+}
+.site-nav-item a {
+	text-transform: uppercase;
+}
+h1 {
+	float: left;
+
+}
+.main-title {
+	font-size: 72px;
+	text-transform: uppercase;
+	padding: 30px;
+	color: white;
+}
+.title {
+	text-align: center;
+	font-size: 72px;
+	margin: 30px;
 }
