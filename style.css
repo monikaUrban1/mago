@@ -4,9 +4,7 @@
 	height: 1000px;
 
 }
-.container {
-	margin: 0 auto;
-}
+
 .navbar {
 	float: right;
 }
@@ -16,8 +14,13 @@
 	float: left;
 	padding: 5px;
 }
+.site-nav-item a:hover {
+	color: yellow;
+	text-decoration: underline;
+}
 .site-nav-item a {
 	text-transform: uppercase;
+	color: white;
 }
 h1 {
 	float: left;
