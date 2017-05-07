@@ -53,3 +53,11 @@ h2 {
 	text-align: center;
 	font-size: 3rem;
 }
+.image {
+	float: right;
+	width: 30%;
+	margin: 15px;
+}
+.counter {
+	background-color: #95e1d3;
+}
