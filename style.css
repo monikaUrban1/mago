@@ -1,6 +1,9 @@
 .html {
 	font-size: 62.5%;
 }
+.main {
+	margin: 10px 180px;
+}
 .header {
 	background-image: url(Image/vulture.jpg);
 	background-size: cover;
@@ -54,7 +57,6 @@ h2 {
 	font-size: 3rem;
 }
 .image {
-	float: right;
 	margin: 15px;
 }
 .counter {
