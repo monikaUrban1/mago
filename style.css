@@ -91,3 +91,11 @@ h3 {
 	font-size: 1.4rem;
 	text-transform: uppercase;
 }
+.for-all {
+	background-image: url(Image/forest.jpg);
+	background-size: cover;
+}
+.rwd-image {
+	margin: 0 auto;
+	display: block;
+}
