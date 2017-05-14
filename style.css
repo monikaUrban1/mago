@@ -83,3 +83,11 @@ h2 {
 	border-right-color: #b5eae0;
 	border-right-width: : 2px;
 }
+.tabel {
+	float: right;
+	padding: 10px;
+}
+h3 {
+	font-size: 1.4rem;
+	text-transform: uppercase;
+}
