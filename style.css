@@ -55,9 +55,29 @@ h2 {
 }
 .image {
 	float: right;
-	width: 30%;
 	margin: 15px;
 }
 .counter {
 	background-color: #95e1d3;
+	float: right;
+	background-size: cover;
+	width: 100%;
+}
+.count {
+	float: right;
+	margin: 0 auto;
+	border-right-color: #b5eae0;
+	border-right-width: : 2px;
+}
+.number {
+	text-decoration: none;
+	float: left;
+	margin: 70px;
+	padding-left: 10px;
+	list-style: none;
+	font-size: 3rem;
+	color: white;
+	text-align: center;
+	border-right-color: #b5eae0;
+	border-right-width: : 2px;
 }
