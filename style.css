@@ -1,6 +1,6 @@
 .html {
-	font-size: 62.5%;
 }
+
 .main {
 	margin: 10px 180px;
 }
@@ -12,38 +12,77 @@
 
 .navbar {
 	float: right;
+	background-color: transparent;
 }
-.site-nav-item {
+
+.nav .nav-link {
 	list-style: none;
 	text-decoration: none;
 	float: left;
 	padding: 5px;
 }
-.site-nav-item a:hover {
+.nav .nav-link a:hover {
 	color: yellow;
 	text-decoration: underline;
 }
-.site-nav-item a {
+.nav-item a {
 	text-transform: uppercase;
 	color: white;
+	font-family: 'Montserrat', sans-serif;
 }
 h1 {
 	float: left;
-
+	font-size: 3.0rem;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-weight: bold;
 }
 .main-title {
 	font-size: 7.2rem;
 	text-transform: uppercase;
 	padding: 30px;
 	color: white;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	width: 100%;
 }
 .title {
 	text-align: center;
 	font-size: 72px;
 	margin: 30px;
+	font-family: 'Kaushan Script', cursive;
+	width: 100%;
+
+}
+.navigation {
+	float: right;
+	width: 100%;
+}
+.list {
+	float: right;
+	border: white;
+}
+.list-item {
+	text-decoration: none;
+	text-transform: uppercase;
+	float: right;
+	padding: 15px;
+	font-size: 1.8rem;
+	margin-left: 25px;
+	border: white;
+	list-style: none;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+.list-item a {
+	border: white;
 }
 .about-us {
 	background-color: white;
+	padding: 10px;
+	margin: 10px;
+	list-style: none;
 }
 h2 {
 	font-size: 2.4rem;
@@ -64,6 +103,8 @@ h2 {
 	float: right;
 	background-size: cover;
 	width: 100%;
+	padding: 10px;
+	margin: 10px;
 }
 .count {
 	float: right;
@@ -83,10 +124,14 @@ h2 {
 	border-right-color: #b5eae0;
 	border-right-width: : 2px;
 }
+.amazing-services {
+	padding: 10px;
+	margin: 10px;
+}
 .tabel {
 	float: right;
 	padding: 10px;
-}
+	margin: 10px;
 h3 {
 	font-size: 1.4rem;
 	text-transform: uppercase;
@@ -99,11 +144,15 @@ h3 {
 	margin: 0 auto;
 	display: block;
 }
+.service {
+	padding: 10px;
+	margin: 10px;
+}
 .man {
 	margin: 30px;
 	float: left;
 }
-.btn-active {
+.btn-photography {
 	background-color: transparent;
 	background-image: url(Image/sun.png);
 	border-top: 2px solid grey;
@@ -116,12 +165,8 @@ h3 {
 	float: right;
 
 }
-#ajdi {
-	width: 500px;
-	display: none;
-	text-align: center;
-	float: right;
-	margin-left: 40px;
-	padding-left: 15px;
-	overflow: scroll;
+.btn-learn {
+	background-color: transparent;
+	border-color: white;
 }
+
