@@ -15,15 +15,15 @@
 	background-color: transparent;
 }
 
-.nav .nav-link {
+.nav .nav-item .nav-link {
 	list-style: none;
-	text-decoration: none;
 	float: left;
 	padding: 5px;
 }
-.nav .nav-link a:hover {
+.nav li a:hover {
 	color: yellow;
 	text-decoration: underline;
+	background-color: transparent;
 }
 .nav-item a {
 	text-transform: uppercase;
@@ -46,6 +46,10 @@ h1 {
 	text-align: center;
 	width: 100%;
 }
+.btn-learn {
+	border-color: white;
+	background: transparent;
+}
 .title {
 	text-align: center;
 	font-size: 72px;
@@ -60,23 +64,23 @@ h1 {
 }
 .list {
 	float: right;
-	border: white;
+	margin: 25px;
 }
 .list-item {
 	text-decoration: none;
 	text-transform: uppercase;
 	float: right;
-	padding: 15px;
-	font-size: 1.8rem;
+	padding: 30px 50px;
+	font-size: 2.4rem;
 	margin-left: 25px;
-	border-color: white;
+	border-top: solid;
 	list-style: none;
 	color: white;
 	font-family: 'Montserrat', sans-serif;
 	
 }
-.list-item a {
-	border: white;
+.list-item:hover{
+	border-color: red;
 }
 .about-us {
 	background-color: white;
@@ -132,6 +136,7 @@ h2 {
 	float: right;
 	padding: 10px;
 	margin: 10px;
+	}
 h3 {
 	font-size: 1.4rem;
 	text-transform: uppercase;
@@ -165,8 +170,18 @@ h3 {
 	float: right;
 
 }
-.btn-learn {
+.btn-blue {
 	background-color: transparent;
 	border-color: white;
+	display: block;
+	margin: 0 auto;
+	text-transform: uppercase;
+	color: white;
+	border: solid;
+}
+.cytat {
+	background-color: lightGrey;
+	margin: 20px;
+	padding: 20px;
 }
 
