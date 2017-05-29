@@ -61,7 +61,8 @@ h1 {
 .redline {
 	color: #f38181;
 	width: 60px;
-	size: 3px;
+	size: 1px;
+	border: solid;
 }
 .title {
 	margin: 10px;
