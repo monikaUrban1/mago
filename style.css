@@ -56,7 +56,12 @@ h1 {
 	margin: 30px;
 	font-family: 'Kaushan Script', cursive;
 	width: 100%;
-
+	color: white;
+}
+.redline {
+	color: #f38181;
+	width: 60px;
+	size: 3px;
 }
 .title {
 	margin: 10px;
