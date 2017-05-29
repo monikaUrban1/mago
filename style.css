@@ -110,6 +110,15 @@ h2 {
 	font-family: 'Montserrat', sans-serif;
 
 }
+.i-phone {
+	margin: 0 auto;
+	display: block;
+}
+.phone {
+	position: relative;
+	bottom: 380px;
+	left: 800px;
+}
 .image {
 	margin: 15px;
 	float: left;
