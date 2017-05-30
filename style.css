@@ -260,8 +260,11 @@ h3 {
 	border: solid;
 }
 .cytat {
-	background-color: lightGrey;
+	background-color: #f8f8f8;
 	margin: 20px;
 	padding: 20px;
+}
+.balloon {
+	float: right;
 }
 
