@@ -127,11 +127,14 @@ h2 {
 .i-phone {
 	margin: 0 auto;
 	display: block;
+	z-index: 1;
+	position: relative;
 }
 .phone {
 	position: relative;
 	bottom: 380px;
 	left: 800px;
+	z-index: 2;
 }
 .image {
 	margin: 15px;
@@ -270,5 +273,14 @@ h3 {
 .image2 {
 	width: 380px;
 	height: 470px;
+}
+.logo {
+	background-color: #f8f8f8;
+	padding: 20px;
+	margin: 20px 0 20px 0;
+}
+.img-logo {
+	margin: 0 auto;
+	width: 80%;
 }
 
