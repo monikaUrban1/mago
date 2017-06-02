@@ -43,8 +43,9 @@ h1 {
 	padding: 30px;
 	color: white;
 	font-family: 'Montserrat', sans-serif;
-	text-align: center;
 	width: 100%;
+	white-space: pre-wrap;
+
 }
 .white-line {
 	width: 80px;
@@ -57,12 +58,13 @@ h1 {
 	background: transparent;
 }
 .subtitle {
-	text-align: center;
-	font-size: 72px;
+	font-size: 7.2rem;
 	margin: 30px;
 	font-family: 'Kaushan Script', cursive;
 	width: 100%;
 	color: white;
+	white-space: pre-wrap;
+
 }
 .redline {
 	color: #f38181;
@@ -283,4 +285,37 @@ h3 {
 	margin: 0 auto;
 	width: 80%;
 }
+@media screen and (max-width: 320px) {
+	.phone {
+	position: relative;
+	bottom: 3px;
+	left: 8px;
+	z-index: 2;
+}
+.subtitle {
+	font-size: 2.2rem;
+	margin: 10px;
+	font-family: 'Kaushan Script', cursive;
+	width: 100%;
+	color: white;
+	white-space: pre-wrap;
 
+}
+.main-title {
+	font-size: 2.2rem;
+	text-transform: uppercase;
+	margin: 10px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	width: 100%;
+	white-space: pre-wrap;
+
+}	
+h1 {
+	float: right;
+	font-size: 3.0rem;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-weight: bold;
+}
+}
