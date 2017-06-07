@@ -188,6 +188,7 @@ h3 {
 	background-size: cover;
 	height: 850px;
 	padding: 5px;
+	width: 100%;
 }
 .rwd-image {
 	margin: 0 auto;
@@ -266,8 +267,8 @@ h3 {
 }
 .cytat {
 	background-color: #f8f8f8;
-	margin: 20px;
 	padding: 20px;
+	width: 100%;
 }
 .balloon {
 	float: right;
