@@ -134,8 +134,8 @@ h2 {
 }
 .phone {
 	position: relative;
-	bottom: 380px;
-	left: 800px;
+	bottom: 45%;
+	left: 60%;
 	z-index: 2;
 }
 .icon {
@@ -379,5 +379,10 @@ h1 {
 	font-family: 'Montserrat', sans-serif;
 	color: white;
 	font-weight: bold;
+}
+.image {
+	margin: 15px;
+	float: left;
+	padding-bottom: 25px;
 }
 }
