@@ -138,10 +138,17 @@ h2 {
 	left: 800px;
 	z-index: 2;
 }
+.icon {
+	margin: 15px;
+	float: left;
+	padding-bottom: 25px;
+	}
 .image {
 	margin: 15px;
 	float: left;
 	padding-bottom: 25px;
+	width: 380px;
+	height: 240px;
 }
 .counter {
 	background-color: #95e1d3;
@@ -182,6 +189,7 @@ h3 {
 	font-size: 1.4rem;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
+	padding: 5px;
 }
 .for-all {
 	background-image: url(Image/forest.jpg);
@@ -198,9 +206,16 @@ h3 {
 	padding: 10px;
 	margin: 10px;
 }
+.circle-quote {
+	border-radius: 150px;
+	float: left;
+}
 .man {
 	margin: 30px;
 	float: left;
+}
+.col-md-12 {
+	height: 100%;
 }
 .btn-photography {
 	background-color: transparent;
@@ -285,6 +300,52 @@ h3 {
 .img-logo {
 	margin: 0 auto;
 	width: 80%;
+}
+.background {
+	width: 100%;
+}
+.circle {
+	border-radius: 100px;
+	float: left;
+	padding: 10px;
+}
+.what-people-say {
+	background-image: url(Image/background-happy.jpg);
+	background-size: cover;
+	width: 100%;
+	padding: 20px;
+}
+.graphic {
+	padding: 20px;
+}
+.redline2 {
+	color: #f38181;
+	width: 80px;
+	size: 1px;
+	border: solid;
+	float: left;
+	margin: 2px;
+
+}
+.describe-contents {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem;
+	color: #999999;
+	padding: 10px;
+}
+.page {
+	position: relative;
+	background-color: #95e1d3;
+	z-index: 2;
+	display: block;
+	width: 60px;
+	height: 70px;
+	top: 160px;
+}
+.callendar {
+	color: white;
+	position: absolute;
+	margin: 15px;
 }
 @media screen and (max-width: 320px) {
 	.phone {
