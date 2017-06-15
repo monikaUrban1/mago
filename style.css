@@ -207,15 +207,12 @@ h3 {
 	margin: 10px;
 }
 .circle-quote {
-	border-radius: 150px;
 	float: left;
+	padding: 15px;
 }
 .man {
 	margin: 30px;
 	float: left;
-}
-.col-md-12 {
-	height: 100%;
 }
 .btn-photography {
 	background-color: transparent;
@@ -282,7 +279,7 @@ h3 {
 }
 .cytat {
 	background-color: #f8f8f8;
-	padding: 20px;
+	padding: 30px;
 	width: 100%;
 }
 .balloon {
@@ -302,7 +299,8 @@ h3 {
 	width: 80%;
 }
 .background {
-	width: 100%;
+
+	padding: 20px 0;
 }
 .circle {
 	border-radius: 100px;
@@ -332,6 +330,7 @@ h3 {
 	font-size: 1.5rem;
 	color: #999999;
 	padding: 10px;
+	float: right;
 }
 .page {
 	position: relative;
@@ -347,13 +346,31 @@ h3 {
 	position: absolute;
 	margin: 15px;
 }
-@media screen and (max-width: 320px) {
+
+
+
+@media screen and (max-width: 380px) {
 	.phone {
 	position: relative;
-	bottom: 3px;
-	left: 8px;
+	bottom: 20%;
+	left: 15%;
 	z-index: 2;
 }
+.graphic-title {
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	padding: 5px;
+	float: left;
+}
+.circle-quote {
+	float: initial;
+}
+.balloon {
+	float: initial;
+	padding: 15px;
+}
+
 .subtitle {
 	font-size: 2.2rem;
 	margin: 10px;
@@ -381,8 +398,39 @@ h1 {
 	font-weight: bold;
 }
 .image {
-	margin: 15px;
+	margin: 5px;
 	float: left;
-	padding-bottom: 25px;
+	padding-bottom: 5px;
+	height: auto;
+	width: 300px;
+}
+.image2 {
+	height: auto;
+	width: 300px;
+}
+.man {
+	margin: 5px;
+	float: left;
+}
+}
+@media screen and (max-width: 500px) {
+.subtitle {
+	font-size: 2.2rem;
+	margin: 10px;
+	font-family: 'Kaushan Script', cursive;
+	width: 100%;
+	color: white;
+	white-space: pre-wrap;
+
+}
+.main-title {
+	font-size: 2.2rem;
+	text-transform: uppercase;
+	margin: 10px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	width: 100%;
+	white-space: pre-wrap;
+
 }
 }
