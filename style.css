@@ -350,6 +350,18 @@ h3 {
 
 
 @media screen and (max-width: 380px) {
+	.list-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    float: initial;
+    padding: 25px 25px;
+    font-size: 1.5rem;
+    margin-left: 10px;
+    border-top: solid;
+    list-style: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
 	.phone {
 	position: relative;
 	bottom: 20%;
@@ -402,11 +414,9 @@ h1 {
 	float: left;
 	padding-bottom: 5px;
 	height: auto;
-	width: 300px;
 }
 .image2 {
 	height: auto;
-	width: 300px;
 }
 .man {
 	margin: 5px;
@@ -414,6 +424,13 @@ h1 {
 }
 }
 @media screen and (max-width: 500px) {
+	.graphic-title {
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	padding: 5px;
+	float: left;
+}
 .subtitle {
 	font-size: 2.2rem;
 	margin: 10px;
@@ -422,6 +439,15 @@ h1 {
 	color: white;
 	white-space: pre-wrap;
 
+}
+.image {
+	margin: 5px;
+	float: left;
+	padding-bottom: 5px;
+	height: auto;
+}
+.image2 {
+	height: auto;
 }
 .main-title {
 	font-size: 2.2rem;
@@ -436,22 +462,34 @@ h1 {
 .phone {
 	position: relative;
 	bottom: 350px;
-	left: 45%;
 	z-index: 2;
 }
-}
-@media screen and (max-width: 500px) {
 .list-item {
-	text-decoration: none;
-	text-transform: uppercase;
-	padding: 10px 5px;
-	float: initial;
-	font-size: 2.4rem;
-	margin-left: 25px;
-	border-top: solid;
-	list-style: none;
-	color: white;
-	font-family: 'Montserrat', sans-serif;
-	
+    text-decoration: none;
+    text-transform: uppercase;
+    float: right;
+    padding: 25px 5px;
+    font-size: 1.5rem;
+    margin-left: 10px;
+    border-top: solid;
+    list-style: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    width: 120px;
 }
+}
+@media screen and (max-width: 780px) {
+.list-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    float: right;
+    padding: 25px 25px;
+    font-size: 1.5rem;
+    margin-left: 10px;
+    border-top: solid;
+    list-style: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+	
 }
