@@ -95,7 +95,7 @@ h1 {
 	list-style: none;
 	color: white;
 	font-family: 'Montserrat', sans-serif;
-	
+	cursor: pointer;
 }
 .list-item:hover{
 	border-color: red;
@@ -462,6 +462,7 @@ h1 {
 .phone {
 	position: relative;
 	bottom: 350px;
+	left: unset;
 	z-index: 2;
 }
 .list-item {
