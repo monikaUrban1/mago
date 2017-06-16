@@ -346,9 +346,35 @@ h3 {
 	position: absolute;
 	margin: 15px;
 }
-
-
-
+.one-map {
+	background-image: url(Image/earth.jpg);
+	background-size: cover;
+	padding: 20px;
+	margin: 0;
+}
+.icon-map {
+	padding: 10px;
+}
+.map-title {
+	color: #f38181;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.4rem;
+}
+.first-column {
+	padding-left: 200px;
+}
+.footer-title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.4rem;
+	color: #cccccc;
+	margin: 15px;
+	padding: 15px;
+	text-align: center;
+}
+.img-footer {
+	padding: 10px;
+}
 @media screen and (max-width: 380px) {
 	.list-item {
     text-decoration: none;
