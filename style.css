@@ -364,6 +364,19 @@ h3 {
 .first-column {
 	
 }
+.sub-btn {
+	background-color: #95e1d3;
+	font-size: 1.4rem;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+.email {
+	border: 1px solid #e5e5e5;
+	color: #c9c9c9;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.4rem;
+	padding: 5px; 
+}
 .footer-title {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2.4rem;
