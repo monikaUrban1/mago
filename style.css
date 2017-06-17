@@ -349,7 +349,7 @@ h3 {
 .one-map {
 	background-image: url(Image/earth.jpg);
 	background-size: cover;
-	padding: 20px;
+	padding: 30px;
 	margin: 0;
 }
 .icon-map {
@@ -396,7 +396,7 @@ h3 {
 	color: #333333;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.2rem;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 }
 .date {
 	font-family: 'Roboto', sans-serif;
@@ -412,7 +412,7 @@ h3 {
 	padding: 10px;
 }
 .last-section {
-	padding: 20px;
+	padding: 25px 150px;
 }
 .img-describe {
 	color: #333333;
