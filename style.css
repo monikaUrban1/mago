@@ -362,7 +362,7 @@ h3 {
 	font-size: 1.4rem;
 }
 .first-column {
-	padding-left: 200px;
+	
 }
 .footer-title {
 	font-family: 'Montserrat', sans-serif;
@@ -374,6 +374,13 @@ h3 {
 }
 .img-footer {
 	padding: 10px;
+}
+.footer-subtitle {
+	text-transform: uppercase;
+	color: #333333;
+}
+.last-section {
+	padding: 20px;
 }
 @media screen and (max-width: 380px) {
 	.list-item {
