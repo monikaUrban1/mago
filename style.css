@@ -133,7 +133,7 @@ h2 {
 	position: relative;
 }
 .phone {
-	position: relative;
+	position: absolute;
 	bottom: 400px;
 	left: 60%;
 	z-index: 2;
