@@ -194,7 +194,6 @@ h3 {
 .for-all {
 	background-image: url(Image/forest.jpg);
 	background-size: cover;
-	height: 850px;
 	padding: 5px;
 	width: 100%;
 }
@@ -341,6 +340,15 @@ h3 {
 	height: 70px;
 	top: 160px;
 }
+.page:hover {
+	position: relative;
+	background-color: #95e1d3;
+	z-index: 2;
+	display: block;
+	width: 60px;
+	height: 70px;
+	box-shadow: 2px -2px 9px #72d9c6;
+}
 .callendar {
 	color: white;
 	position: absolute;
@@ -420,6 +428,9 @@ h3 {
 	font-size: 1.2rem; 
 	padding: 10px;
 	text-transform: uppercase;
+}
+.third-column {
+	padding: 10px;
 }
 @media screen and (max-width: 380px) {
 	.list-item {
